@@ -1,0 +1,89 @@
+p{
+    font-family:Pacifico; 
+}
+h1{
+    font-family:Italianno;
+    font-size: 80px;
+}
+#welcome{
+    position: absolute;
+    height: 800px;
+    color: #ffffff;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+.profile{
+    width: 175px;
+     margin-bottom: 50px;
+    border-radius: 100%;
+}
+body{
+    margin: 0;
+    padding-top: 800px;
+}
+.menu{
+    list-style: none;
+    font-family: Anton;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.links{
+    float: left;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: Anton;
+    font-size: 20px;
+}
+.links:hover{
+    background-color:yellow;
+}
+#About{
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+.line{
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+#myfavouritebooks{
+    background:background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.advitya{
+    width: 300px;
+     margin-bottom: 50px;
+    border-radius: 100%;
+}
+h2{
+    font-size: 60px;
+}
